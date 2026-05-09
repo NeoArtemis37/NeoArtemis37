@@ -9,7 +9,7 @@
 
 ### 🔐 Security Specialization
 
-<img align="left" width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=NeoArtemis37&theme=dark&hide_border=true" alt="GitHub Streak Stats">
+<img align="left" width="400" src="https://streak-stats.demolab.com/?user=NeoArtemis37&theme=dark&hide_border=true" alt="GitHub Streak Stats">
 
 **Penetration Testing**  
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat&logo=burpsuite)
@@ -96,9 +96,9 @@
 ## 📈 Activity Metrics
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NeoArtemis37&show_icons=true&theme=radical&hide_title=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NeoArtemis37&layout=compact&theme=radical)
+
+![GitHub Stats](https://github-readme-stats-salesp07.vercel.app/api?username=NeoArtemis37&show_icons=true&theme=radical&hide_title=true&hide_border=true)
+![Top Languages](https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=NeoArtemis37&layout=compact&theme=radical&hide_border=true)
 
 </div>
 
