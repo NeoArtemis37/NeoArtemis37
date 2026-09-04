@@ -1,6 +1,6 @@
 <!-- Dynamic Header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:92FE9D,100:00C9FF&height=200&section=header&text=JEECSE%20%7C%20ARTEMIS37&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:92FE9D,100:00C9FF&height=200&section=header&text=JEECE%20%7C%20NEOARTEMIS&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
   
   <h3>🔧 Builder · 🛡️ Security Researcher · 🏴‍☠️ Breaker</h3>
   
