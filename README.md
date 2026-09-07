@@ -43,7 +43,7 @@ Frameworks & Platforms<p> <img src="https://img.shields.io/badge/React-61DAFB?st
 
 <!-- Animated Header -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=00FF41&background=000000&center=true&vCenter=true&width=600&lines=%F0%9F%94%90+JEECSE+%7C+ARTEMIS37;%F0%9F%92%80+Security+Researcher;%E2%9A%94%EF%B8%8F+Offensive+Security;%F0%9F%8F%81+CTF+Enthusiast" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=00FF41&background=000000&center=true&vCenter=true&width=600&lines=%F0%9F%94%90+JEECE+%7C+ARTEMIS37;%F0%9F%92%80+Security+Researcher;%E2%9A%94%EF%B8%8F+Offensive+Security;%F0%9F%8F%81+CTF+Enthusiast" alt="Typing Animation" />
 </div>
 
 <p align="center">
@@ -76,20 +76,6 @@ Frameworks & Platforms<p> <img src="https://img.shields.io/badge/React-61DAFB?st
 </table>
 
 ---
-
-## ⚔️ Arsenal
-
-### 🔴 Offensive Security
-
-┌─────────────────────────────────────────────────────────┐
-│ Reconnaissance │ Exploitation │ Post-Exploit │
-├─────────────────────────────────────────────────────────┤
-│ • RustScan │ • Metasploit │ • Empire │
-│ • Nmap │ • Burp Suite │ • Covenant │
-│ • Masscan │ • Cobalt Strike │ • BloodHound │
-│ • Recon-ng │ • SQLmap │ • Mimikatz │
-└─────────────────────────────────────────────────────────┘
-
 ### 🔵 Digital Forensics & OSINT
 ![Volatility](https://img.shields.io/badge/Volatility-6A0DAD?style=flat-square&logo=memory)
 ![Autopsy](https://img.shields.io/badge/Autopsy-2E86AB?style=flat-square&logo=sleuthkit)
