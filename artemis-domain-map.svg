@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title desc">
+  <title id="title">Artemis: connected domains</title>
+  <desc id="desc">A map connecting software engineering, security, data exploration and collaborative learning. The four domains are Build, Secure, Explore and Share. No levels or skill scores are assigned.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111d31"/>
+      <stop offset="1" stop-color="#0a1221"/>
+    </linearGradient>
+    <radialGradient id="hub">
+      <stop stop-color="#173c54"/>
+      <stop offset="1" stop-color="#0b2338"/>
+    </radialGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+      .label { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .flow { fill:none; stroke-width:2; stroke-dasharray:5 12; animation:flow 13s linear infinite; }
+      .pulse { transform-origin:500px 225px; animation:pulse 5s ease-in-out infinite; }
+      @keyframes flow { to { stroke-dashoffset:-170; } }
+      @keyframes pulse { 0%,100% { opacity:.2; transform:scale(1); } 50% { opacity:.48; transform:scale(1.06); } }
+      @media (prefers-reduced-motion: reduce) { .flow,.pulse { animation:none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="398" rx="20" fill="#0b1220" stroke="#24374c"/>
+  <text class="label" x="28" y="32" font-size="14" letter-spacing="2" fill="#829bb7">ARTEMIS / DOMAIN MAP</text>
+  <text x="28" y="63" font-size="26" font-weight="650" fill="#edf5ff">Connecting software, security and people</text>
+  <g fill="none" stroke="#28425a" stroke-width="2">
+    <path d="M348 152 C410 152 400 189 443 205"/>
+    <path d="M348 298 C410 298 400 261 443 245"/>
+    <path d="M652 152 C590 152 600 189 557 205"/>
+    <path d="M652 298 C590 298 600 261 557 245"/>
+  </g>
+  <path class="flow" d="M348 152 C410 152 400 189 443 205" stroke="#40c8f5"/>
+  <path class="flow" d="M348 298 C410 298 400 261 443 245" stroke="#ab9bff"/>
+  <path class="flow" d="M652 152 C590 152 600 189 557 205" stroke="#58dbc0"/>
+  <path class="flow" d="M652 298 C590 298 600 261 557 245" stroke="#f1b86a"/>
+  <circle class="pulse" cx="500" cy="225" r="74" fill="none" stroke="#46b6d6" stroke-width="1"/>
+  <circle cx="500" cy="225" r="62" fill="url(#hub)" stroke="#3b9bb9" stroke-width="1.5"/>
+  <path d="M484 191 L500 182 L516 191 L516 209 L500 218 L484 209 Z" fill="none" stroke="#70d8f3" stroke-width="2"/>
+  <path d="M484 191 L500 200 L516 191 M500 200 L500 218" fill="none" stroke="#70d8f3" stroke-width="2"/>
+  <text x="500" y="242" text-anchor="middle" font-size="22" font-weight="750" letter-spacing="1" fill="#edf7ff">ARTEMIS</text>
+  <text x="500" y="263" text-anchor="middle" font-size="14" fill="#a7c5dc">Connect &amp; build</text>
+  <g>
+    <rect x="28" y="88" width="320" height="128" rx="14" fill="url(#surface)" stroke="#294257"/>
+    <rect x="28" y="109" width="3" height="42" rx="1.5" fill="#40c8f5"/>
+    <text class="label" x="53" y="119" font-size="14" letter-spacing="1.5" fill="#40c8f5">01 / SOFTWARE</text>
+    <text x="53" y="152" font-size="27" font-weight="700" fill="#edf5ff">BUILD</text>
+    <text x="53" y="184" font-size="20" fill="#b2c3d9">Tools · apps · web</text>
+    <path d="M297 126 L286 138 L297 150 M314 126 L325 138 L314 150 M308 121 L303 155" fill="none" stroke="#40c8f5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="652" y="88" width="320" height="128" rx="14" fill="url(#surface)" stroke="#294257"/>
+    <rect x="652" y="109" width="3" height="42" rx="1.5" fill="#58dbc0"/>
+    <text class="label" x="677" y="119" font-size="14" letter-spacing="1.5" fill="#58dbc0">02 / CYBERSECURITY</text>
+    <text x="677" y="152" font-size="27" font-weight="700" fill="#edf5ff">SECURE</text>
+    <text x="677" y="184" font-size="20" fill="#b2c3d9">Systems · apps · risk</text>
+    <path d="M928 121 L942 127 L942 140 Q942 151 928 157 Q914 151 914 140 L914 127 Z M921 139 L926 144 L935 134" fill="none" stroke="#58dbc0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="28" y="234" width="320" height="128" rx="14" fill="url(#surface)" stroke="#294257"/>
+    <rect x="28" y="255" width="3" height="42" rx="1.5" fill="#ab9bff"/>
+    <text class="label" x="53" y="265" font-size="14" letter-spacing="1.5" fill="#ab9bff">03 / DATA &amp; AI</text>
+    <text x="53" y="298" font-size="27" font-weight="700" fill="#edf5ff">EXPLORE</text>
+    <text x="53" y="330" font-size="20" fill="#b2c3d9">NLP · data · visualisation</text>
+    <path d="M285 300 L285 270 M297 300 L297 281 M309 300 L309 261 M321 300 L321 276" fill="none" stroke="#ab9bff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="652" y="234" width="320" height="128" rx="14" fill="url(#surface)" stroke="#294257"/>
+    <rect x="652" y="255" width="3" height="42" rx="1.5" fill="#f1b86a"/>
+    <text class="label" x="677" y="265" font-size="14" letter-spacing="1.5" fill="#f1b86a">04 / COLLABORATION</text>
+    <text x="677" y="298" font-size="27" font-weight="700" fill="#edf5ff">SHARE</text>
+    <text x="677" y="330" font-size="20" fill="#b2c3d9">Peers · notes · awareness</text>
+    <path d="M913 267 H942 V287 H929 L921 294 V287 H913 Z" fill="none" stroke="#f1b86a" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="921" cy="277" r="1.5" fill="#f1b86a"/>
+    <circle cx="928" cy="277" r="1.5" fill="#f1b86a"/>
+    <circle cx="935" cy="277" r="1.5" fill="#f1b86a"/>
+  </g>
+  <text x="500" y="385" text-anchor="middle" font-size="15" fill="#829bb7">Learning continues in every direction</text>
+</svg>
